@@ -3,3 +3,5 @@ numpy
 matplotlib
 xgboost
 scikit-learn
+streamlit>=1.28.0
+joblib
