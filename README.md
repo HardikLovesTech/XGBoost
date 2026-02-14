@@ -42,17 +42,39 @@ pip install -r requirements.txt
 # Project Structure
 ```
 └── XGBoost/
-   ├── .gitattributes
-   ├── README.md
-   ├── TelcoChurnDataset.csv
-   ├── Telco_customer_churn.csv
-   ├── Telco_customer_churn.xlsx
-   ├── XGBoost.ipynb
-   ├── archive/
-   │   └── Telco_customer_churn.xlsx
-   ├── archive.zip
-   ├── requirements.txt
-   └── training.py
+    ├── .devcontainer/
+    │   └── devcontainer.json
+    ├─] .gitattributes (ignored)
+    ├── .gitignore
+    ├── .streamlit/
+    │   └── config.toml
+    ├── APP_README.md
+    ├── DEPLOYMENT.md
+    ├── DESIGN_SYSTEM.md
+    ├── FINAL_CHECKLIST.md
+    ├── INDEX.md
+    ├── LabelEncoders.pkl
+    ├── PROJECT_SUMMARY.md
+    ├── QUICKSTART.md
+    ├── README.md
+    ├── START_HERE.md
+    ├── STREAMLIT_README.md
+    ├── StandardScaler.pkl
+    ├── TelcoChurnDataset.csv
+    ├── Telco_customer_churn.csv
+    ├── Telco_customer_churn.xlsx
+    ├── XGBoost.ipynb
+    ├── XGBoost_Model.pkl
+    ├─] __pycache__/ (ignored)
+    ├── app.py
+    ├─] archive/ (ignored)
+    ├─] archive.zip (ignored)
+    ├── confusion_matrix.png
+    ├── feature_importance.png
+    ├── requirements.txt
+    ├── roc_curve.png
+    ├─] venv/ (ignored)
+    └── xgb_tree.png
 ```
 
 # Exploratory Data Analysis (EDA)
