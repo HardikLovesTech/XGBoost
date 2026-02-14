@@ -683,7 +683,7 @@ def main():
                             st.markdown("<hr>", unsafe_allow_html=True)
                             
                             st.markdown("""
-                                <h2 style='text-align: center; margin-top: 1rem; margin-bottom: 0.5rem;'>Prediction Results</h2>
+                                <h2 style='text-align: center; margin-top: 1rem; color: var(--primary); margin-bottom: 0.5rem;'>Prediction Results</h2>
                             """, unsafe_allow_html=True)
                             
                             # Results in columns with gap
